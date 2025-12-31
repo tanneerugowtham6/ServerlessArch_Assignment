@@ -1,12 +1,6 @@
-# Assignment-1: Automated Instance Management Using AWS Lambda and Boto3
+# Serverless Architecture Assignments
 
-## Objective
-
-In this assignment, you will gain hands-on experience with AWS Lambda and Boto3, Amazon's SDK for Python. You will create a Lambda function that will automatically manage EC2 instances based on their tags.
-
-## Task
-
-You're tasked to automate the stopping and starting of EC2 instances based on tags.
+This repository contains the code and step-by-step tasks related to Serverless Architecture using AWS Lambda, Boto3, SNS, etc.
 
 ---
 
@@ -15,17 +9,16 @@ You're tasked to automate the stopping and starting of EC2 instances based on ta
 ### Cloud Platform
 - **Provider:** AWS
 
-### Operating System
-- **EC2 AMI::** Ubuntu 20.04 LTS
-- **AWS Lambda Runtime:** Python 3.x (AWS-managed runtime)
-
 ### AWS Services Used
 - EC2
 - Lambda
 - S3
 - SNS
-
+  
 ---
 
-#### Step 1: Create S3 Bucket
+## AWS Serverless Assignments
 
+1. Assignment 01 – EC2 Auto Start/Stop
+2. Assignment 02 – S3 Cleanup Automation
+3. Assignment 03 – 
