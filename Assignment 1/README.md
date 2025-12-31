@@ -27,7 +27,9 @@ You're tasked to automate the stopping and starting of EC2 instances based on ta
 
 ---
 
-#### Step 1: Create EC2 Instances with Tag configurations
+## Procedure
+
+### Step 1: Create EC2 Instances with Tag configurations
 
 1. Login to AWS console, goto EC2 Service
 2. Click on Launch Instance
@@ -44,7 +46,7 @@ You're tasked to automate the stopping and starting of EC2 instances based on ta
 
     <img width="1404" height="98" alt="image" src="https://github.com/user-attachments/assets/41dd5c29-f41a-499c-ad5d-52017ee30d2c" />
 
-#### Step 2: Create IAM Role for AWS Lambda
+### Step 2: Create IAM Role for AWS Lambda
 
 1. Search and navigate to the **IAM** service in AWS console
 
@@ -79,7 +81,7 @@ You're tasked to automate the stopping and starting of EC2 instances based on ta
 
     <img width="1148" height="183" alt="image" src="https://github.com/user-attachments/assets/8568dd0f-cffc-4dee-9ca0-2521f77db060" />
 
-#### Step 3: Create AWS Lambda Function
+### Step 3: Create AWS Lambda Function
 
 1. Search and navigate to the **AWS Lambda Dashboard**
 
@@ -106,7 +108,7 @@ You're tasked to automate the stopping and starting of EC2 instances based on ta
 
     <img width="1422" height="937" alt="image" src="https://github.com/user-attachments/assets/e3f3e865-2df3-4e1e-92ef-0d7c7fed3627" />
 
-#### Step 4: Add Boto3 Code to Start and Stop EC2 Instances Based on Tags
+### Step 4: Add Boto3 Code to Start and Stop EC2 Instances Based on Tags
 
 1. Go to the function created in previous step
 2. Click on **Code** section (Refer to the final screenshot in the previous step)
@@ -116,7 +118,7 @@ You're tasked to automate the stopping and starting of EC2 instances based on ta
     <img width="1422" height="659" alt="image" src="https://github.com/user-attachments/assets/4f9bb462-e0dd-419c-9227-6cdee27ee9d1" />
     <img width="1422" height="172" alt="image" src="https://github.com/user-attachments/assets/3499bcf4-9c12-4fca-a3e5-479f9bbb1177" />
 
-#### Step 5: Manually invoke the function
+### Step 5: Manually invoke the function
 
 1. On your AWS Lambda function page, click on **Test** section
 2. Select **Test event action** as **Create new event**, enter **Event name**, **Event JSON** can be left to Default
