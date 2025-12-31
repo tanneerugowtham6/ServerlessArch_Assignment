@@ -20,10 +20,8 @@ Automate the deletion of files older than 30 days in a specific S3 bucket.
 - **AWS Lambda Runtime:** Python 3.x (AWS-managed runtime)
 
 ### AWS Services Used
-- EC2
-- Lambda
 - S3
-- SNS
+- Lambda
 
 ---
 
