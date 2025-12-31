@@ -16,7 +16,6 @@ Automate the deletion of files older than 30 days in a specific S3 bucket.
 - **Provider:** AWS
 
 ### Operating System
-- **EC2 AMI::** Ubuntu 20.04 LTS
 - **AWS Lambda Runtime:** Python 3.x (AWS-managed runtime)
 
 ### AWS Services Used
