@@ -108,7 +108,7 @@ You're tasked to automate the stopping and starting of EC2 instances based on ta
 
     <img width="1422" height="937" alt="image" src="https://github.com/user-attachments/assets/e3f3e865-2df3-4e1e-92ef-0d7c7fed3627" />
 
-### Step 4: Add Boto3 Code to Start and Stop EC2 Instances Based on Tags
+### Step 4: Add Boto3 Code to the Lambda Function
 
 1. Go to the function created in previous step
 2. Click on **Code** section (Refer to the final screenshot in the previous step)
