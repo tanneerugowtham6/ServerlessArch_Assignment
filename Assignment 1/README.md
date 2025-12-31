@@ -22,8 +22,6 @@ You're tasked to automate the stopping and starting of EC2 instances based on ta
 ### AWS Services Used
 - EC2
 - Lambda
-- S3
-- SNS
 
 ---
 
