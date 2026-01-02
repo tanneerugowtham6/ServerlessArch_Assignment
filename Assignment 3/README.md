@@ -21,6 +21,7 @@ Automate the creation of snapshots for specified EBS volumes and clean up snapsh
 ### AWS Services Used
 - EBS
 - Lambda
+- CloudWatch
 
 ---
 
@@ -156,4 +157,5 @@ Automate the creation of snapshots for specified EBS volumes and clean up snapsh
 
     After retention test changed to 1 minute
     <img width="1493" height="129" alt="image" src="https://github.com/user-attachments/assets/0b3cff35-e6d4-42d6-b83e-83e0f7d6e542" />
+
 
