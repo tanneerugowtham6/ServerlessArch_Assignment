@@ -21,6 +21,7 @@ Automate the deletion of files older than 30 days in a specific S3 bucket.
 ### AWS Services Used
 - S3
 - Lambda
+- CloudWatch
 
 ---
 
