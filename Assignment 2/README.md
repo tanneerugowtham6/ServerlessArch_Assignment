@@ -78,7 +78,7 @@ Automate the deletion of files older than 30 days in a specific S3 bucket.
 
     <img width="1710" height="374" alt="image" src="https://github.com/user-attachments/assets/3d02380f-cd93-4411-b45c-5d89a6dc8430" />
 
-> **Note: AmazonEC2FullAccess is used for learning purposes.**  
+> **Note: AmazonS3FullAccess is used for learning purposes.**  
 > **In production, least-privilege IAM policies should be applied.**
 
 7. Enter the Role name and click on Create role
