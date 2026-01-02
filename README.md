@@ -13,7 +13,10 @@ This repository contains the code and step-by-step tasks related to Serverless A
 - EC2
 - Lambda
 - S3
-- SNS
+- CloudWatch
+- EBS
+- Amazon EventBridge
+- IAM
   
 ---
 
@@ -21,4 +24,5 @@ This repository contains the code and step-by-step tasks related to Serverless A
 
 1. Assignment 01 – EC2 Auto Start/Stop
 2. Assignment 02 – S3 Cleanup Automation
-3. Assignment 03 – 
+3. Assignment 03 – Auto Snapshot and Cleanup
+4. Assignment 04 - Auto tagging EC2 instance
