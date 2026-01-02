@@ -148,3 +148,11 @@ Automate the creation of snapshots for specified EBS volumes and clean up snapsh
     <img width="1698" height="760" alt="image" src="https://github.com/user-attachments/assets/9e2530c4-30ec-47d7-81a0-69f7835420c8" />
 
     <img width="1667" height="505" alt="image" src="https://github.com/user-attachments/assets/fde74bb2-541b-429d-a31e-3ca9458f1443" />
+
+7. Navigate to the EC2 service from AWS Console and click on Snapshots on the left sidebar
+
+    Before retention changed to 1 minute
+    <img width="1698" height="258" alt="image" src="https://github.com/user-attachments/assets/db283a4a-472b-4a8d-83d8-de1bbbaed43a" /> 
+
+    After retention test changed to 1 minute
+    <img width="1493" height="129" alt="image" src="https://github.com/user-attachments/assets/0b3cff35-e6d4-42d6-b83e-83e0f7d6e542" />
