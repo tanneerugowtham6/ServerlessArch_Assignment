@@ -69,7 +69,7 @@ Automate the creation of snapshots for specified EBS volumes and clean up snapsh
 5. Click on **Next**
 6. In the Permissions page, search for **AmazonEC2FullAccess** and **AWSLambdaBasicExecutionRole** policy and select them
 
-    <img width="1710" height="374" alt="image" src="https://github.com/user-attachments/assets/3d02380f-cd93-4411-b45c-5d89a6dc8430" />
+    <img width="1697" height="427" alt="image" src="https://github.com/user-attachments/assets/57fe0483-3117-489c-92ca-2f20e9a529bc" />
 
 > **Note: AmazonEC2FullAccess is used for learning purposes.**  
 > **In production, least-privilege IAM policies should be applied.**
@@ -156,3 +156,4 @@ Automate the creation of snapshots for specified EBS volumes and clean up snapsh
 
     After retention test changed to 1 minute
     <img width="1493" height="129" alt="image" src="https://github.com/user-attachments/assets/0b3cff35-e6d4-42d6-b83e-83e0f7d6e542" />
+
