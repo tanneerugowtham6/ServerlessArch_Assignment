@@ -22,8 +22,8 @@ def lambda_handler(event, context):
 
     #2 Calculating the cleanup date/time
     # uncomment the below line and comment the retention_days line to use minutes as retention time
-    # cleanup_time = datetime.now(timezone.utc) - timedelta(minutes=retention_time)
-    cleanup_date = datetime.now(timezone.utc) - timedelta(days=retention_days)
+    # cleanup = datetime.now(timezone.utc) - timedelta(minutes=retention_time)
+    cleanup = datetime.now(timezone.utc) - timedelta(days=retention_days)
 
     #3 List the snapshots of the specified volume
     snapshots = ec2.describe_snapshots(
