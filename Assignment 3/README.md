@@ -113,3 +113,38 @@ Automate the creation of snapshots for specified EBS volumes and clean up snapsh
 8. Change the timeout duration to **1 minute**
 
     <img width="1432" height="827" alt="image" src="https://github.com/user-attachments/assets/ce48a6af-abca-4571-84eb-412a159e587b" />
+
+### Step 4: Add Boto3 Code to the Lambda Function
+
+1. Go to the function created in previous step
+2. Click on **Code** section (Refer to the final screenshot in the previous step)
+3. Add the code from `EBS-Snapshot-lambda-function.py` file in this repository
+4. Click **Deploy** to save the function
+
+    <img width="1432" height="773" alt="image" src="https://github.com/user-attachments/assets/e08b1354-038b-41a9-8e4a-2fefc4d5dbc1" />
+
+    <img width="1432" height="101" alt="image" src="https://github.com/user-attachments/assets/d5f956a7-04bd-4ce0-b361-dd96b5a7b276" />
+
+### Step 5: Manually invoke the function
+
+1. On your AWS Lambda function page, click on **Test** section
+2. Select **Test event action** as **Create new event**, enter **Event name**, **Event JSON** can be left to Default
+3. Click on **Test** to invoke the function
+
+    <img width="1432" height="773" alt="image" src="https://github.com/user-attachments/assets/ed2276a0-b628-4a59-b0fe-17b77b52be32" />
+
+> For testing purpose, `cleanup_time` has been uncommented and time has been set to `1 Minute`
+
+4. Once manual invokation is done, below status will be observed
+
+    <img width="1432" height="773" alt="image" src="https://github.com/user-attachments/assets/9fe2f716-efa3-486b-99ab-a5efb6dd53a7" />
+
+5. Click on Monitor section, then click on **View CloudWatch logs**
+
+    <img width="1401" height="344" alt="image" src="https://github.com/user-attachments/assets/6a98d7a9-3b22-4e86-ad45-94d641b01f83" />
+
+6. Select the latest **log stream**
+
+    <img width="1698" height="760" alt="image" src="https://github.com/user-attachments/assets/9e2530c4-30ec-47d7-81a0-69f7835420c8" />
+
+    <img width="1667" height="505" alt="image" src="https://github.com/user-attachments/assets/fde74bb2-541b-429d-a31e-3ca9458f1443" />
