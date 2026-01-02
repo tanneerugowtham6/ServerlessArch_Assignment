@@ -21,6 +21,8 @@ Automatically tag any newly launched EC2 instance with the current date and a cu
 ### AWS Services Used
 - EC2
 - Lambda
+- CloudWatch
+- Amazon EventBridge
 
 ---
 
@@ -182,3 +184,4 @@ Automatically tag any newly launched EC2 instance with the current date and a cu
 4. Click on the newly created instance, goto **Tags** section, verify if the tags applied
 
     <img width="756" height="268" alt="image" src="https://github.com/user-attachments/assets/3e03f634-fcb9-45e2-9647-10676b6732b5" />
+
